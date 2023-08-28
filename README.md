@@ -22,6 +22,6 @@ sample_submission.csv - A submission file in the correct format.
 ## Methodology ⚙️
 To predict if people were transported, I performed a train-val split of 80:20 on training data. I used 3 classifiers CatBoostClassifier, LGBMClassifier and XGBClassifier. All of them were tuned with optima to find optimal hyper-parameters. All the classifiers gives accuracy about 81% on validation data. 
 
-At the end of the project PyTorch logistic regression model and k-fold technique were implemented. Logistic regression model gives 80,4% accuracy, and KFold 77,4% accuracy.
+At the end of the project PyTorch logistic regression model and k-fold technique were implemented. Logistic regression model gives 77% accuracy, and KFold 78% accuracy.
 
 Appropriate graphs and metrics were generated for the analysis and performance of the different models were compared.
